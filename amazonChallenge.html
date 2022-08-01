@@ -1,4 +1,13 @@
 <style>
+  #amazon-link {
+    color: blue;
+    transition: color 0.15s;
+  }
+
+  #amazon-link:hover {
+    color: darkorange;
+  }
+  
   #available-text {
     color: green;
     font-weight: bold;
@@ -12,6 +21,15 @@
     border-radius: 13px;
     cursor: pointer;
     margin-right: 10px;
+    transition: background-color 0.15s;
+  }
+
+  #add-to-cart:hover {
+    background-color: rgb(222, 192, 0);
+  }
+
+  #add-to-cart:active {
+    opacity: 0.5;
   }
 
   #buy-now {
@@ -22,10 +40,20 @@
     border-radius: 13px;
     cursor: pointer;
     margin-right: 10px;
+    transition: background-color 0.15s;
   }
+
+  #buy-now:hover {
+    background-color: rgb(215, 147, 0);
+  }
+
+  #buy-now:active {
+    opacity: 0.5;
+  }
+
 </style>
 
-<a href="https://www.amazon.com/">
+<a href="https://www.amazon.com/" id="amazon-link">
   Back to Amazon
 </a>
 <h2>
