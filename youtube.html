@@ -4,38 +4,67 @@
     <title>
       YouTube Clone
     </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <style>
+      p {
+        font-family: Roboto;
+      }
+      
       .thumbnail {
         width: 300px;
         display: block;
       }
 
       .search-bar {
-        
+        display: block;
       }
 
       .video-title {
-
+        font-weight: 500;
       }
 
       .video-author, 
       .video-stats {
       }
+
+      .video-preview {
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+      }
     </style>
   </head>
   <body>
     <input class="search-bar" type="text" placeholder="Search">
-    
-    <img class="thumbnail" src="thumbnails/punjabi-thumbnail.webp">
 
-    <p class="video-title">
-      Panjabi MC - Mundian To Back Ke
-    </p>
-    <p class="video-author">
-      Prochorowka
-    </p>
-    <p class="video-stats">
-      100M views &#183; 13 years ago
-    </p>
+    <div class="video-preview">
+      <img class="thumbnail" src="thumbnails/grass-thumbnail.webp">
+      <p class="video-title">
+        how to touch grass
+      </p>
+      <p class="video-author">
+        Peternity
+      </p>
+      <p class="video-stats">
+        548K views &#183; 1 year ago
+      </p>
+    </div>
+
+    <div class="video-preview">
+      <img class="thumbnail" src="thumbnails/punjabi-thumbnail.webp">
+      <p class="video-title">
+        Panjabi MC - Mundian To Back Ke (The Dictator Soundtrack)
+      </p>
+      <p class="video-author">
+        Prochorowka
+      </p>
+      <p class="video-stats">
+        100M views &#183; 13 years ago
+      </p>
+    </div>
+
   </body>
 </html>
