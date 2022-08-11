@@ -15,8 +15,7 @@
       }
       
       .thumbnail {
-        width: 300px;
-        display: block;
+        width: 100%;
       }
 
       .search-bar {
@@ -42,17 +41,15 @@
       }
 
       .video-preview {
-        width: 300px;
-        display: inline-block;
-        vertical-align: top;
-        margin-right: 15px;
         cursor: pointer;
       }
 
+      .video-info-grid {
+        display: grid;
+        grid-template-columns: 50px 1fr;
+      }
+
       .channel-picture {
-        display: inline-block;
-        width: 50px;
-        vertical-align: top;
       }
 
       .profile-picture {
@@ -61,61 +58,158 @@
       }
 
       .video-info {
-        display: inline-block;
-        width: 200px;
       }
 
       .thumbnail-row {
         margin-bottom: 12px;
+      }
+
+      .video-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 15px;
+        row-gap: 40px;
       }
     </style>
   </head>
   <body>
     <input class="search-bar" type="text" placeholder="Search">
 
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <img class="thumbnail" src="thumbnails/grass-thumbnail.webp">
-      </div>
-      <div>
-        <div class="channel-picture">
-          <img class="profile-picture" src="channel-pictures/Peternity.jpg">
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/grass-thumbnail.webp">
         </div>
-        <div class="video-info">
-          <p class="video-title">
-            how to touch grass
-          </p>
-          <p class="video-author">
-            Peternity
-          </p>
-          <p class="video-stats">
-            548K views &#183; 1 year ago
-          </p>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/Peternity.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              how to touch grass
+            </p>
+            <p class="video-author">
+              Peternity
+            </p>
+            <p class="video-stats">
+              548K views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/joma-thumbnail.webp">
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/Joma In NYC.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              why I moved to new york city
+            </p>
+            <p class="video-author">
+              Joma in NYC
+            </p>
+            <p class="video-stats">
+              592K views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/program-in-c.webp">
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/Kaslai.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Program in C
+            </p>
+            <p class="video-author">
+              Kaslai
+            </p>
+            <p class="video-stats">
+              1.1M views &#183; 4 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/punjabi-thumbnail.webp">
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/Prochorowka.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Panjabi MC - Mundian To Back Ke (The Dictator Soundtrack)
+            </p>
+            <p class="video-author">
+              Prochorowka
+            </p>
+            <p class="video-stats">
+              100M views &#183; 13 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/college-advice.webp">
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/Arpi Park.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Realistic college advice for unmotivated students
+            </p>
+            <p class="video-author">
+              Arpi Park
+            </p>
+            <p class="video-stats">
+              3.1M views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/center-div-thumbnail.webp">
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/LevelUp Tuts.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              #15 - How To Center A Div
+            </p>
+            <p class="video-author">
+              LevelUp Tuts
+            </p>
+            <p class="video-stats">
+              8.4K views &#183; 6 years ago
+            </p>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <img class="thumbnail" src="thumbnails/punjabi-thumbnail.webp">
-      </div>
-      <div>
-        <div class="channel-picture">
-          <img class="profile-picture" src="channel-pictures/Prochorowka.jpg">
-        </div>
-        <div class="video-info">
-          <p class="video-title">
-            Panjabi MC - Mundian To Back Ke (The Dictator Soundtrack)
-          </p>
-          <p class="video-author">
-            Prochorowka
-          </p>
-          <p class="video-stats">
-            100M views &#183; 13 years ago
-          </p>
-        </div>
-      </div>
-    </div>
+
 
   </body>
 </html>
