@@ -29,15 +29,9 @@
   grid-template-columns: 50px 1fr;
 }
 
-.channel-picture {
-}
-
 .profile-picture {
   width: 39px;
   border-radius: 40px;
-}
-
-.video-info {
 }
 
 .thumbnail-row {
