@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Gmail Challenge</title>
+  <style>
+    div {
+      font-family: Arial;
+    }
+
+    .email-container {
+      width: 500px;
+      box-shadow: 0 0 2px 2px rgb(209, 209, 209);
+      padding-bottom: 15px;
+    }
+
+    .header-text {
+      font-size: 14px;
+      color: gray;
+      padding-top: 8px;
+      padding-left: 14px;
+      margin-bottom: 16px;
+    }
+
+    .email-element {
+      display: flex;
+      align-items: center;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 18px;
+    }
+
+    .profile-picture {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 25px;
+    }
+
+    .email-preview {
+      flex: 1;
+      margin-left: 10px;
+    }
+
+    .email-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 4px;
+    }
+
+    .header-title {
+      font-weight: bold;
+      font-size: 17px;
+    }
+
+    .header-time {
+      font-size: 14px;
+      color: grey;
+    }
+
+    .email-subject {
+      font-weight: bold;
+      font-size: 15px;
+      margin-bottom: 3px;
+    }
+
+    .email-content-preview {
+      color: grey;
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="email-container">
+    <div class="header-text">
+      ALL INBOXES
+    </div>
+    <div class="email-element">
+      <img class="profile-picture" src="res/charlie-cat.jpg">
+      <div class="email-preview">
+        <div class="email-header">
+          <div class="header-title">Charlie the Curious Cat</div>
+          <div class="header-time">4:58 PM</div>
+        </div>
+        <div class="email-subject">How does catnip work?</div>
+        <div class="email-content-preview">Hey there! I would love to sample more of your work...</div>
+      </div>
+    </div>
+
+    <div class="email-element">
+      <img class="profile-picture" src="res/samoyed.jpg">
+      <div class="email-preview">
+        <div class="email-header">
+          <div class="header-title">Fluffy Cloud</div>
+          <div class="header-time">12:32 PM</div>
+        </div>
+        <div class="email-subject">RE: Hair Loss!!</div>
+        <div class="email-content-preview">I have been shedding like crazy, what do I do???</div>
+      </div>
+    </div>
+
+    <div class="email-element">
+      <img class="profile-picture" src="res/maverick-cat.jpg">
+      <div class="email-preview">
+        <div class="email-header">
+          <div class="header-title">Maverick the Money Maker</div>
+          <div class="header-time">9:00 AM</div>
+        </div>
+        <div class="email-subject">Get rich quick!</div>
+        <div class="email-content-preview">Find out how cats worldwide have been earning food...</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
