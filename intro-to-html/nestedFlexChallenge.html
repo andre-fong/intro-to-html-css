@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Flexbox Challenges</title>
+  <style>
+    .outer-flexbox {
+      display: flex;
+      margin-bottom: 50px;
+    }
+
+    .left1 {
+      width: 100px;
+      height: 50px;
+      background-color: lightpink;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .item1 {
+      background-color: black;
+      color: white;
+    }
+
+    .right1 {
+      width: 200px;
+      background-color: lightblue;
+    }
+
+    .left2 {
+      width: 100px;
+      background-color: lightpink;
+    }
+
+    .right2 {
+      width: 200px;
+      background-color: lightblue;
+    }
+
+    .row2 {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="outer-flexbox">
+    <div class="left1">
+      <div class="item1">
+        Item 1
+      </div>
+    </div>
+    <div class="right1"></div>
+  </div>
+
+  <div class="outer-flexbox">
+    <div class="left2"></div>
+    <div class="right2">
+      row 1
+      <div class="row2">
+        <div class="item1">row 2</div>
+        <div class="item1">row 2</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
