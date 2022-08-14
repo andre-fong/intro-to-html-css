@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Clothes Challenge</title>
+  <style>
+    div {
+      font-family: Arial;
+    }
+
+    .clothes-item {
+      width: 500px;
+      position: relative;
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+
+    .preview {
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .discount {
+      position: absolute;
+      color: white;
+      background-color: black;
+      padding: 5px 10px 5px 10px;
+      top: 10px;
+      right: 0;
+    }
+
+    .add-overlay {
+      background-color: rgba(255, 255, 255, 0.7);
+      display: flex;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 120px;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .add-to-cart {
+      font-weight: bold;
+      background-color: white;
+      color: black;
+      border-style: solid;
+      border-radius: 3px;
+      border-color: black;
+      border-width: 1.5px;
+      padding: 7px 15px 7px 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="clothes-item">
+    <img class="preview" src="res/cat-food.webp">
+    <div class="discount">20% OFF</div>
+    <div class="add-overlay">
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+  </div>
+</body>
+</html>
