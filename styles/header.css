@@ -12,6 +12,7 @@
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1;
 }
 
 .left-section {
@@ -102,8 +103,24 @@
   height: 24px;
 }
 
+.notif-icon-container {
+  position: relative;
+}
+
 .notifs-icon {
   height: 24px;
+}
+
+.notif-count {
+  position: absolute;
+  top: -2px;
+  right: -3px;
+  background-color: rgb(200, 0, 0);
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 11px;
+  padding: 1px 5px 1px 5px;
+  border-radius: 10px;
 }
 
 .current-user-picture {
