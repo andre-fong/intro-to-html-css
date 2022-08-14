@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <title>Discord Sidebar Copy</title>
+  <style>
+    div {
+      font-family: "Open Sans", sans-serif;
+    }
+
+    .sidebar {
+      display: flex;
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+    }
+
+    .servers {
+      background-color: rgb(53, 53, 53);
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 20px;
+    }
+
+    .server-picture {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 30px;
+      display: block;
+      margin-bottom: 7px;
+    }
+
+    .server-info {
+      background-color: rgb(68, 68, 68);
+      width: 250px;
+      padding-top: 20px;
+      padding-left: 17px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+    }
+
+    .server-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .server-title {
+      color: white;
+      font-weight: 600;
+    }
+
+    .add-channel {
+      color: rgb(162, 162, 162);
+      font-size: 30px;
+    }
+
+    .channels {
+      padding-left: 3px;
+      padding-right: 10px;
+      margin-top: 7px;
+      margin-bottom: 10px;
+    }
+
+    .channel {
+      color:rgb(162, 162, 162);
+      margin-bottom: 17px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+
+    <div class="servers">
+      <img class="server-picture" src="res/charlie-cat.jpg">
+      <img class="server-picture" src="res/maverick-cat.jpg">
+      <img class="server-picture" src="res/samoyed.jpg">
+    </div>
+
+    <div class="server-info">
+
+      <div class="server-header">
+        <div class="server-title">MONEY MAKING CATS</div>
+        <div class="add-channel">+</div>
+      </div>
+
+      <div class="channels">
+        <div class="channel"># general</div>
+        <div class="channel"># money-strategies</div>
+        <div class="channel"># food-pictures</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
