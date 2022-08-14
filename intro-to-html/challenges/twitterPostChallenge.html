@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Twitter Post Challenge</title>
+  <style>
+    div {
+      font-family: Roboto, Arial;
+    }
+
+    .twitter-post-container {
+      width: 500px;
+      display: flex;
+    }
+    
+    .profile-picture {
+      width: 55px;
+      height: 55px;
+      object-fit: cover;
+      border-radius: 30px;
+      margin-left: 15px;
+      margin-top: 8px;
+    }
+
+    .tweet-container {
+      margin-left: 10px;
+      margin-top: 12px;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 4px;
+    }
+
+    .username {
+      font-weight: 700;
+      flex: 1;
+    }
+
+    .user-tag {
+      color: gray;
+      flex: 1;
+    }
+
+    .content {
+      margin-bottom: 12px;
+    }
+
+    .embed {
+      display: flex;
+      width: 100%;
+    }
+
+    .embed-preview {
+      background-color: rgb(228, 228, 228);
+      flex: 1;
+      border-radius: 10px 0 0 10px;
+    }
+
+    .embed-info {
+      flex: 3;
+      border-style: solid;
+      border-color: rgb(228, 228, 228);
+      border-width: 1.5px;
+      border-radius: 0 10px 10px 0;
+      padding-top: 13px;
+      padding-left: 13px;
+      padding-right: 5px;
+      padding-bottom: 13px;
+    }
+
+    .embed-link {
+      color: gray;
+      margin-bottom: 3px;
+    }
+
+    .embed-title {
+      line-height: 22px;
+    }
+  </style>
+</head>
+<body>
+  <div class="twitter-post-container">
+    <img class="profile-picture" src="res/maverick-cat.jpg">
+    <div class="tweet-container">
+      <div class="header">
+        <div class="username">
+          Maverick the Money Maker
+        </div>
+        <div class="user-tag">
+          &#64;MaverickMoneyCat
+        </div>
+      </div>
+      <div class="content">
+        Click the link below to learn how lazy cats like me can get free food just for laying around!
+      </div>
+      <div class="embed">
+        <div class="embed-preview"></div>
+        <div class="embed-info">
+          <div class="embed-link">maverickblog.com</div>
+          <div class="embed-title">Money making course for lazy cats - a complete overview (2022)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
