@@ -1,6 +1,8 @@
 # intro-to-html-css
 
-First exposure to vanilla HTML and CSS: includes a [YouTube homepage clone](https://andre-fong.github.io/intro-to-html-css/youtube.html)
-and challenges in [intro-to-html/challenges](https://github.com/andre-fong/intro-to-html-css/tree/main/intro-to-html).
+:partying_face: First exposure to vanilla HTML and CSS!
 
-Learned from SuperSimpleDev on YouTube!
+:clipboard: Includes a [YouTube homepage clone](https://andre-fong.github.io/intro-to-html-css/youtube.html)
+and challenges in [intro-to-html/challenges](https://github.com/andre-fong/intro-to-html-css/tree/main/intro-to-html/challenges).
+
+:pencil2: Learned from SuperSimpleDev on YouTube!
