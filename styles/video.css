@@ -44,6 +44,7 @@
 .channel-info .channel-name-large {
   font-weight: 600;
   margin-bottom: 5px;
+  white-space: nowrap;
 }
 
 .channel-info .subscribers {
